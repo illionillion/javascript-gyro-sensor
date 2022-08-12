@@ -3,9 +3,9 @@
 window.addEventListener('load', () => {
     console.log('load');
 
-    document.getElementById('start').addEventListener('click', (function (){
-        return function f() {
-            console.log('click!!');
+    // document.getElementById('start').addEventListener('click', (function (){
+    //     return function f() {
+    //         console.log('click!!');
 
             window.addEventListener('deviceorientation', e => {
                 const absolute = e.absolute
@@ -21,8 +21,8 @@ window.addEventListener('load', () => {
                 document.getElementById('gamma').innerHTML = gamma
             })
 
-            document.getElementById('start').removeEventListener('click', f)
-        }
-    })())
+    //         document.getElementById('start').removeEventListener('click', f)
+    //     }
+    // })())
 
 })
