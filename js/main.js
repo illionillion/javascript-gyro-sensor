@@ -13,9 +13,12 @@ window.addEventListener('load', () => {
                 const beta     = e.beta
                 const gamma    = e.gamma
         
-                const outputText = `absolute:${absolute},alpha:${alpha},beta:${beta},gamma:${gamma}`
+                // const outputText = `absolute:${absolute},alpha:${alpha},beta:${beta},gamma:${gamma}`
         
-                document.getElementById('output').innerHTML = outputText
+                document.getElementById('absolute').innerHTML = absolute
+                document.getElementById('alpha').innerHTML = alpha
+                document.getElementById('beta').innerHTML = beta
+                document.getElementById('gamma').innerHTML = gamma
             })
 
             document.getElementById('start').removeEventListener('click', f)
