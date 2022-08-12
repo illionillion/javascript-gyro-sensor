@@ -3,7 +3,7 @@
 window.addEventListener('load', () => {
     console.log('load');
 
-    addEvent()
+    setTimeout(addEvent, 1000);
 
     // document.getElementById('start').addEventListener('click', (function (){
     //     return function f() {
