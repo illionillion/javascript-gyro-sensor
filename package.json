@@ -1,0 +1,12 @@
+{
+  "name": "javascript-gyro-sensor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "http-server -o"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
