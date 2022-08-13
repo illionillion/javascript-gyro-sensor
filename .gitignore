@@ -1,2 +1,9 @@
 .DS_Store
 node_modules
+pass.txt
+server.key
+server.csr
+server.crt
+server-key.pem
+server-csr.pem
+server-crt.pem
